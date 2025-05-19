@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "\"Microservice for CS361\"",
+  "main": "controller.mjs",
+  "scripts": {
+    "start": "nodemon controller.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Evan-Johnson-WV/CS-361-Microservice.git"
+  },
+  "author": "Evan Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evan-Johnson-WV/CS-361-Microservice/issues"
+  },
+  "homepage": "https://github.com/Evan-Johnson-WV/CS-361-Microservice#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "nodemon": "^3.1.10"
+  }
+}
